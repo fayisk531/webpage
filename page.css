@@ -1,0 +1,182 @@
+/* HEAD  */
+
+.container{
+    background-color: rgb(0, 0, 50);
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    box-shadow: 0px 0px 20px black;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+
+}
+
+.links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.links a:hover{
+    color: yellow;
+}
+
+ .logout{
+    padding: 10px;
+    background-color: rgba(206, 206, 0, 0.999);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+button:hover{
+    background-color: rgb(213, 213, 0);
+}
+
+
+
+
+
+/* 2nd ROW */
+
+
+
+    .mainimg img{
+        width: 500px;
+        height: 350px;
+        border-radius: 100px;
+        float: right;
+        padding: 50px;
+        margin-top: 40px;
+     }
+
+    
+     button{
+        height: 35px;
+        width: 100px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(227, 227, 4);
+     }
+
+     h1{
+        margin-left: 100px;
+        padding: 15px;
+        margin-top: 80px;
+        font-size: 40px;
+     }
+
+     .mycontent{
+        margin-left: 100px;
+        padding: 20px;
+        font-size: 20px;
+     }
+
+     .b2{
+        margin-left: 140px;
+        margin-top: 50px;
+        font-size: 15px;
+        width: 600px;
+        height: 48px;
+        background-color: rgb(255, 13, 13);
+        color: white;
+     }
+
+     .b2:hover{
+        background-color: rgb(214, 0, 0);
+     }
+
+   
+
+    
+
+          /* FEATURES */
+
+        .feature{
+            text-align: center;
+            padding: 40px;
+            margin-bottom: 20px;
+          }
+
+
+        .cards{
+            display: flex;
+            gap: 60px;
+            width: 1000px;
+            height: 300px;
+            justify-content: center;
+            margin-left: 280px;
+           
+           
+           
+
+          }
+
+          .card1{
+           text-align: center;
+            border-radius: 20px;
+            box-shadow: 0px 0px 12px rgb(145, 145, 145);
+            background-color: rgb(255, 254, 254);
+           
+           
+
+          }
+
+          .card1 img{
+            width: 50px;
+            height: 50px;
+            padding: 25px;
+            margin-top: 20px;
+          }
+
+          .cardtx{
+            text-align: center;
+            padding: 20px;
+          }
+
+          .card1:hover{
+            transform: translateY(-2px);
+            box-shadow:0 10px 10px rgba(0, 0, 0, 0.54);
+          }
+
+
+          /* BOTTOM */
+
+
+        .bottom{
+            background-color: rgb(0, 0, 50);
+            color: white;
+        }  
+
+
+        .contact{
+            margin-left: 700px;
+            background-color: red;
+            color: white;
+            margin-bottom: 40px;
+            margin-top: 30px;
+            height: 50px;
+            width: 159px;
+        }
+
+        .contact:hover{
+            background-color: rgb(191, 0, 0);
+        }
+
+        .bottomc{
+            text-align: center;
+        }
+
+          

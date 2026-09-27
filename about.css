@@ -1,0 +1,145 @@
+/* HEAD  */
+
+.container{
+    background-color: rgb(0, 0, 50);
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    box-shadow: 0px 0px 20px black;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+
+}
+
+.links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.links a:hover{
+    color: yellow;
+}
+
+ .logout{
+    padding: 10px;
+    background-color: rgba(206, 206, 0, 0.999);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+button:hover{
+    background-color: rgb(213, 213, 0);
+}
+
+
+
+
+/* second row */
+
+
+.aboutus img{
+    float: right;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 60px;
+    margin-top: 85px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
+}
+
+.about-text{
+
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.about-text h1{
+    color: rgb(255, 0, 0);
+}
+
+
+
+/* 3rd row */
+
+
+.we-text{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+            gap: 60px;
+            width: 1000px;
+            height: 300px;
+            margin-left: 250px;
+            margin-top: 50px;
+
+}
+.card1{
+     text-align: center;
+    border-radius: 20px;
+       box-shadow: 0px 0px 8px rgba(80, 79, 79, 0.372);
+           
+}
+
+.card1 img{
+    height: 70px;
+    width: 70px;
+    padding: 30px;
+
+}
+
+.card1:hover{
+    transform: translateY(-2px);
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.595);
+}
+
+
+/* 4th Row */
+
+
+.head-team{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.team{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.our-team img{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+.our-team{
+    text-align: center;
+  
+}
+
